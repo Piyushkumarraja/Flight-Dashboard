@@ -88,10 +88,10 @@ const TravelRequest = () => {
           value={searchTerm}
           onChange={handleSearch}
         />
-        <button type="button" className="" onClick={handleAddBooking}>
+        {/* <button type="button" className="" onClick={handleAddBooking}>
           <Icon path={mdiPlusThick} size={0.8} />
           Add Booking
-        </button>
+        </button> */}
       </div>
       {filteredFlights.length > 0 ? (
         <div className="flight-table">
